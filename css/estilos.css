@@ -1,0 +1,951 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: Asdonuts;
+	font-size: 23px;
+	text-decoration: none;
+}
+html{
+	scroll-behavior: smooth;
+}
+/*animaciones*/
+
+#log{
+	animation-name: logo;
+	animation-duration: 5s;
+	position: relative;
+}
+@keyframes logo {
+	0%{left: 0;top: 0; opacity: 0%;}
+	30%{left: 0;top: 0; opacity: 0%;}
+	75%{left: 0;top: 15px; opacity: 50%;}
+	100%{left: 0;top: 0; opacity: 100%;}
+}
+
+#fondo{
+	animation-name: fondovideo;
+	animation-duration: 5s;
+	position: relative;
+}
+@keyframes fondovideo {
+	0%{left: 0;top: 0;background: #5912a2;}
+	50%{left: 0;top: 0;background: yellow;}
+	100%{left: 0;top: 0;background: #cec5fc;}
+	
+}
+#facea{
+	animation-name: facea;
+	animation-duration: 5s;
+	position: relative;
+}
+@keyframes facea{
+	0%{left: 0;top: 0;opacity: 0%;}
+	50%{left: 30em;top: 0;opacity: 100%;}
+	100%{left: 0;top: 0;}
+}
+#twia{
+	animation-name: twia;
+	animation-duration: 5s;
+	position: relative;
+}
+@keyframes twia{
+	0%{left: 0;top: 0;opacity: 0%;}
+	50%{left: 30em;top: 0;opacity: 100%;}
+	100%{left: 0;top: 0;}
+}
+#instaa{
+	animation-name: twia;
+	animation-duration: 5s;
+	position: relative;
+}
+@keyframes instaa{
+	0%{left: 0;top: 0;opacity: 0%;}
+	50%{left: 30em;top: 0;opacity: 100%;}
+	100%{left: 0;top: 0;}
+}
+#frase{
+	animation-name: frase;
+	animation-duration: 5s;
+	animation-timing-function: 
+	position:relative;
+	animation-iteration-count: infinite;
+}
+@keyframes frase{
+	0%{color: rebeccapurple;}
+	25%{color: purple;}
+	50%{color: yellow;}
+	75%{color: violet;}
+	90%{color: black;}
+	100%{color: rebeccapurple;}
+}
+/*HOVER ESPECIAL*/
+	/*LOGO*/
+.logo:hover{
+	width: 12em;
+	z-index: 3;
+	background-color: black;
+	border-radius: 15px;
+	transition: all 600ms;
+}
+
+	/*DANIELA*/
+
+.background-da{
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	top: 50px;
+	left: -170px;
+	border-radius: 100%;
+	transition: all 800ms;
+	background: linear-gradient(to bottom, #3E204A,#A353C2);
+}
+.daniela:hover{
+	transform: translate(5px,-5px);
+	transition: all 300ms;
+	box-shadow: -10px 10px 20px -10px rgba(0, 0, 0, 0.5);
+}
+.daniela:hover .background-da{
+	width: 500px;
+	height: 500px;
+	top: -70px;
+	left: -70;
+}
+.daniela:hover .fotos{
+	opacity: 50%;
+	transition: all 300ms;
+}
+.daniela:hover h6{
+	transform: translateY(-100px);
+	opacity: 100%;
+	color: white;
+	font-family: Cooper Black;
+	transition: all 300ms;
+	position: relative;
+	z-index: 2;
+	cursor: pointer;
+}
+
+	/*SANTIAGO*/
+.background-sa{
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	top: 250px;
+	left: -170px;
+	border-radius: 100%;
+	transition: all 800ms;
+	background: linear-gradient(to bottom, #3E204A,#A353C2);
+}
+.santiago:hover{
+	transform: translate(5px,-5px);
+	transition: all 300ms;
+	box-shadow: -10px 10px 20px -10px rgba(0, 0, 0, 0.5);
+}
+.santiago:hover .background-sa{
+	width: 500px;
+	height: 500px;
+	top: -70px;
+	left: -70;
+}
+.santiago:hover .fotos{
+	opacity: 50%;
+	transition: all 300ms;
+}
+.santiago:hover h6{
+	transform: translateY(-100px);
+	opacity: 100%;
+	color: white;
+	font-family: Cooper Black;
+	transition: all 300ms;
+	position: relative;
+	z-index: 2;
+	cursor: pointer;
+}
+
+	/*ERIKA*/
+.background-eri{
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	top: 50px;
+	left: -170px;
+	border-radius: 100%;
+	transition: all 800ms;
+	background: linear-gradient(to bottom, #3E204A,#A353C2);
+}
+.erika:hover{
+	transform: translate(5px,-5px);
+	transition: all 300ms;
+	box-shadow: -10px 10px 20px -10px rgba(0, 0, 0, 0.5);
+}
+.erika:hover .background-eri{
+	width: 500px;
+	height: 500px;
+	top: -70px;
+	left: -70;
+}
+.erika:hover .fotos{
+	opacity: 50%;
+	transition: all 300ms;
+}
+.erika:hover h6{
+	transform: translateY(-100px);
+	opacity: 100%;
+	color: white;
+	font-family: Cooper Black;
+	transition: all 300ms;
+	position: relative;
+	z-index: 2;
+	cursor: pointer;
+}
+
+	/*CAMILO HUESA*/
+.background-hover{
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	top: 50px;
+	left: -170px;
+	border-radius: 100%;
+	transition: all 800ms;
+	background: linear-gradient(to bottom, #3E204A,#A353C2);
+}
+.camilo:hover{
+	transform: translate(5px,-5px);
+	transition: all 300ms;
+	box-shadow: -10px 10px 20px -10px rgba(0, 0, 0, 0.5);
+}
+.camilo:hover .background-hover{
+	width: 500px;
+	height: 500px;
+	top: -70px;
+	left: -70;
+}
+.camilo:hover .fotos{
+	opacity: 50%;
+	transition: all 300ms;
+}
+h6{
+	transform: translateY(100px);
+	opacity: 0;
+}
+.camilo:hover h6{
+	transform: translateY(-100px);
+	opacity: 100%;
+	color: white;
+	font-family: Cooper Black;
+	transition: all 300ms;
+	position: relative;
+	z-index: 2;
+	cursor: pointer;
+}
+
+	/*JOHAN*/
+.background-jo{
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	top: 250px;
+	left: -170px;
+	border-radius: 100%;
+	transition: all 800ms;
+	background: linear-gradient(to bottom, #3E204A,#A353C2);
+}
+.johan:hover{
+	transform: translate(5px,-5px);
+	transition: all 300ms;
+	box-shadow: -10px 10px 20px -10px rgba(0, 0, 0, 0.5);
+}
+.johan:hover .background-jo{
+	width: 500px;
+	height: 500px;
+	top: -70px;
+	left: -70;
+}
+.johan:hover .fotos{
+	opacity: 50%;
+	transition: all 300ms;
+}
+.johan:hover h6{
+	transform: translateY(-100px);
+	opacity: 100%;
+	color: white;
+	font-family: Cooper Black;
+	transition: all 300ms;
+	position: relative;
+	z-index: 2;
+	cursor: pointer;
+}
+
+	/*YO*/
+.background-yo{
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	top: 50px;
+	left: -170px;
+	border-radius: 100%;
+	transition: all 800ms;
+	background: linear-gradient(to bottom, #3E204A,#A353C2);
+}
+.yo:hover{
+	transform: translate(5px,-5px);
+	transition: all 300ms;
+	box-shadow: -10px 10px 20px -10px rgba(0, 0, 0, 0.5);
+}
+.yo:hover .background-yo{
+	width: 500px;
+	height: 500px;
+	top: -70px;
+	left: -70; 
+}
+.yo:hover .fotos{
+	opacity: 50%;
+	transition: all 300ms;
+}
+.yo:hover h6{
+	transform: translateY(-100px);
+	opacity: 100%;
+	color: white;
+	font-family: Cooper Black;
+	transition: all 300ms;
+	position: relative;
+	z-index: 2;
+	cursor: pointer;
+}
+/*inicio pagina*/
+
+.contenedor{
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+	
+	/*flex*/
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+	/*Superior*/
+
+header{
+	width: 100%;
+	padding: 20px;
+
+	/*flex*/
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.box5{
+	height: 200px;
+	width: 250px;
+}
+header .imagenes .box1:hover{
+	background-color: #cec5fc;
+}
+.box1{
+	padding: 10px;
+	text-align: center;
+	border-radius: 20px;
+	background-color: white;
+}
+header .imagenes .box2:hover{
+	background-color: #cec5fc;
+}
+.box2{
+	padding: 10px;
+	text-align: center;
+	border-radius: 20px;
+	background-color: white;
+}
+header .imagenes .box3:hover{
+	background-color: #cec5fc;
+}
+.box3{
+	padding: 10px;
+	text-align: center;
+	border-radius: 20px;
+	background-color: white;
+}
+.imagenes{
+	width: 50%;
+	max-width: 1000px;
+
+	/*flex*/
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+	/*Barra limitación*/
+
+.box6{
+	height: 1em;
+	width: 100%;
+	background-color: #cec5fc;
+	border-radius: 100px;
+}
+
+	/*Spot*/
+
+.vid{
+	height: 15em;
+	/*flex*/
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	/*flex: 1 1 70%;*/
+	flex: 1;
+}
+.video1{
+	padding: 10px;
+	width: 24em;
+	height: 14em;
+	background-color: #cec5fc;
+	border-radius: 15px;	
+}
+.spot{
+	padding: 5px;
+	border-radius: 15px;
+}
+
+	/*Redes1*/
+
+.aside{
+	padding-top: 20px;
+	/*flex*/
+	flex: 0 0 100px;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	align-items: center;
+}
+.widget{
+	margin-top: 1em;
+}
+
+	/*Barra Quienes somos*/ 
+
+.sup2{
+	margin-top: 40px;
+	width: 100%;
+	/*flex*/
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.perso{
+	padding: 8px;
+	width: 5em;
+	/*flex*/
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.s1{
+	margin-left: 3em;
+	background-color: white;
+	border-radius: 20px;
+	display: flex;
+	justify-content: flex-start;
+	padding: 10px;
+	width: 20em;
+}
+h1{
+	font-size: 50px;
+	color: #5912a2;
+}
+
+	/*Texto*/
+
+.texto1{
+	display: table;
+	width: 100%;
+	margin: 2rem auto;
+	text-align: center;
+	color: #5912a2;
+}
+.texto1 p{
+	display: table-cell;
+	font-size: 1.5rem;
+	background-color: white;
+	border-radius: 20px;
+	margin: 0;
+	padding: 0 1rem;
+	vertical-align: middle;
+}
+
+	/*Integrantes*/
+
+.integrantes{
+	width:100%;
+	padding: 1em;
+	/*flex*/
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.daniela{
+	border-radius: 25px;
+	width: 180px;
+	position: relative;
+	overflow: hidden;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.santiago{
+	border-radius: 25px;
+	width: 180px;
+	position: relative;
+	overflow: hidden;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;	
+}
+.erika{
+	border-radius: 25px;
+	width: 180px;
+	position: relative;
+	overflow: hidden;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;	
+}
+.camilo{
+	border-radius: 25px;
+	width: 180px;
+	position: relative;
+	overflow: hidden;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.johan{
+	border-radius: 25px;
+	width: 180px;
+	position: relative;
+	overflow: hidden;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.yo{
+	border-radius: 25px;
+	width: 180px;
+	position: relative;
+	overflow: hidden;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.fotos{
+	width: 180px;
+	position: relative;
+	z-index: 1;
+}
+
+	/*Barra Serie*/
+
+.sup3{
+	margin-top: 40px;
+	width: 100%;
+	/*flex*/
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.play{
+	padding: 8px;
+	width: 5em;
+	display: flex;
+	justify-content: center;
+}
+.s2{
+	margin-left: 3em;
+	display: flex;
+	background-color: white;
+	border-radius: 20px;
+	justify-content: flex-start;
+	padding: 10px;
+	width: 6em;
+}
+
+	/*Serie y Artista*/
+
+.seriev{
+	width: 100%;
+	padding: 2em;
+	/*flex*/
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.perfil{
+	margin-top: 30px;
+	width: 200px;
+}
+.video2{
+	width: 27em;
+	background-color: #cec5fc;
+	border-radius: 15px;
+	padding: 9px;
+	/*flex*/
+	display: flex;
+	justify-content: space-around;
+}
+.video3{
+	width: 49%;
+	margin-top: 1em;
+	background-color: #cec5fc;
+	border-radius: 15px;
+	padding: 9px;
+	/*flex*/
+	display: flex;
+	justify-content: space-around;
+}
+
+	/*Barra Contacto*/
+
+.inferior{
+	width: 100%;
+	/*flex*/
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.telefono{
+	padding: 8px;
+	width: 5em;
+	display: flex;
+	justify-content: center;
+}
+.s3{
+	margin-left: 3em;
+	display: flex;
+	background-color: white;
+	border-radius: 20px;
+	justify-content: flex-start;
+	padding: 10px;
+	width: 8em;
+}
+
+	/*Ultimo (frase)*/
+
+.contac{
+	width: 100%;
+	/*flex*/
+	display: flex;
+}
+.frase{
+	display: table;
+	width: 100%;
+	margin: 2rem auto;
+	text-align: center;
+	color: #5912a2;
+}
+h2{
+
+	display: table-cell;
+	font-size: 120px;
+	margin: 0;
+	padding: 0 1rem;
+	vertical-align: middle;
+}
+
+	/*Ultimo (redes)*/
+
+.red{
+	margin-top: 1em;
+	margin-bottom: 2em;
+	width: 100%;
+}
+
+.face2{
+	margin-top: 2px;
+	width: 40px;
+	border-radius: 5px;
+	float: left;
+	margin-left: 15px;
+	opacity: 75%;
+}
+.twi2{
+	margin-top: 2px;
+	width: 40px;
+	border-radius: 5px;
+	float: left;
+	margin-left: 15px;
+	opacity: 75%;
+}
+.insta2{
+	margin-top: 2px;
+	width: 40px;
+	border-radius: 5px;
+	float: left;
+	margin-left: 15px;
+	opacity: 75%;
+}
+h3{
+	font-size: 30px;
+	color: mediumpurple;
+	float: right;
+	margin-top: 10px;
+}
+
+
+
+
+
+	/*celular*/
+
+
+
+
+@media screen and (max-width: 800px){
+	.contenedor{
+		flex-direction: column;
+	}
+
+/*Superior*/
+
+	header{
+		flex-direction: column;
+		background-color: ;
+		border-radius: ;
+		padding: 0;
+	}
+	header.box5 {
+		margin: 20px 0;
+	}
+	.imagenes {
+		width: 100%;
+	}
+
+/*Spot*/
+	
+	.vid{
+		margin-top: 1em;
+		justify-content: center;
+		padding: 10px;
+		width: 100%;
+	}
+	.video1{
+		width: 100%;
+		height: 11em;
+		padding: 9px;
+	}
+	
+	.spot{
+		width: 99%;
+		height: 10em;
+	}
+
+/*Redes1*/
+
+	.widget{
+		margin-top: 0;
+	}
+
+	.aside{
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+	}
+
+/*Barra Quienes somos*/
+
+	.sup2{
+		justify-content: center;
+		margin-bottom: 1em;
+		background-color: black;
+		border-radius: 45px;
+	}
+	
+	.s1{
+		margin-left: 0;
+		justify-content: center;
+		background-color: transparent;
+	}
+	h1{
+		color: white;
+		font-size: 2em;
+	}
+
+/*Texto*/
+
+	.texto1{
+		margin: 0;
+		padding: 0;
+	}
+	.texto1 p{
+		font-size: 1em;
+	}
+
+/*Integrantes*/
+
+	.integrantes{
+		flex-direction: row;
+		padding: 0;
+	}
+	.fotos{
+		width: 6em;
+	}
+	.daniela{
+		width: 50%;
+		display: flex;
+		justify-content: center;	
+	}
+	.santiago{
+		width: 50%;
+		display: flex;
+		justify-content: center;	
+	}
+	.erika{
+		width: 50%;
+		display: flex;
+		justify-content: center;	
+	}
+	.camilo{
+		width: 50%;
+		display: flex;
+		justify-content: center;
+	}
+	.johan{
+		width: 50%;
+		display: flex;
+		justify-content: center;
+	}
+	.yo{
+		width: 50%;
+		display: flex;
+		justify-content: center;
+	}
+
+/*Barra Serie*/
+
+	.sup3{
+		margin-top: 1em;
+		background-color: black;
+		border-radius: 45px;
+	}
+	.play{
+		width: 100%;
+		display: flex;
+		justify-content: center;
+	}
+	.s2{
+		width: 100%;
+		margin-left: 0;
+		display: flex;
+		justify-content: center;
+		background-color: transparent;
+	}
+
+/*Serie y Artista*/
+
+	.seriev{
+		margin-top: 1em;
+		padding: 0;
+		display: flex;
+		justify-content: center;
+	}
+	.video2{
+		width: 100%;
+		height: 11em;
+	}
+	.video3{
+		width: 100%;
+		height: 11em;
+	}
+	.perfil{
+		margin-top: 0;
+		width: 45%;
+	}
+	.fotoar{
+		width: 100%;
+	}
+	.ver{
+		width: 100%;
+	}
+
+/*Barra Contacto*/
+	
+	.inferior{
+		margin-top: 1em;
+		background-color: black;
+		border-radius: 45px;
+		display: flex;
+	}
+	.telefono{
+		width: 100%;
+		display: flex;
+		justify-content: center;
+	}
+	.s3{
+		width: 100%;
+		margin-left: 0;
+		display: flex;
+		justify-content: center;
+		background-color: transparent;
+	}
+
+/*Ultimo (frase)*/
+	
+	h2{
+		margin-top: 0;
+		font-size: 3em;
+	}
+
+/*Ultimo (redes)*/
+	
+	.red{
+		display: flex;
+		align-items: center;
+	}
+	.twi2{
+		width: 2em;
+	}
+	.face2{
+		width: 2em;
+	}
+	.insta2{
+		width: 2em;
+	}
+	h3{
+		color: transparent;
+	}
+/*KEYFRAMES*/
+	
+	@keyframes facea{
+		0%{left: 0;top: 0;opacity: 0%;}
+		50%{left: -30em;top: 0;opacity: 100%;}
+		100%{left: 0;top: 0;}
+	}
+
+	@keyframes twia{
+		0%{left: 0;top: 0;opacity: 0%;}
+		50%{left: -30em;top: 0;opacity: 100%;}
+		100%{left: 0;top: 0;}
+	}
+	@keyframes instaa{
+		0%{left: 0;top: 0;opacity: 0%;}
+		50%{left: -30em;top: 0;opacity: 100%;}
+		100%{left: 0;top: 0;}
+	}
+}
